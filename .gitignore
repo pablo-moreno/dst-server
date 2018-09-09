@@ -1,0 +1,7 @@
+Caves/backup/
+Caves/save/
+Master/backup/
+Master/save/
+cluster_token.txt
+**/server_log.txt
+**/server_chat_log.txt
