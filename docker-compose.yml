@@ -8,4 +8,3 @@ services:
       - ~/dst-data/Master/save:/root/.klei/DoNotStarveTogether/Server/Master/save
       - ~/dst-data/Caves/backup:/root/.klei/DoNotStarveTogether/Server/Caves/backup
       - ~/dst-data/Caves/save:/root/.klei/DoNotStarveTogether/Server/Caves/save
-    command: sh dst.sh
