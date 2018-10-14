@@ -30,12 +30,15 @@ cluster_name = <yourservername>
 
 ### Build docker image
 ```
-docker-compose build
+docker build . -t dst
 ```
 
-## Run it!
+### Run it!
+```
+docker run dst
+```
 
-### Start docker-compose
+### Or use docker-compose
 
 ```
 docker-compose up
