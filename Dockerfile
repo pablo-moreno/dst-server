@@ -17,3 +17,6 @@ ADD cluster_token.txt /root/.klei/DoNotStarveTogether/Server/
 # Set working directory
 WORKDIR /root
 ADD dst.sh .
+
+# Entrypoint
+ENTRYPOINT ["sh", "dst.sh"]
