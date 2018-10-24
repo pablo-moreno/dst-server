@@ -35,7 +35,12 @@ docker build . -t dst
 
 ### Run it!
 ```
-docker run dst
+docker run \
+  -v ~/dst-data/Master/backup:/root/.klei/DoNotStarveTogether/Server/Master/backup \
+  -v ~/dst-data/Master/save:/root/.klei/DoNotStarveTogether/Server/Master/save \
+  -v ~/dst-data/Caves/backup:/root/.klei/DoNotStarveTogether/Server/Caves/backup \
+  -v ~/dst-data/Caves/save:/root/.klei/DoNotStarveTogether/Server/Caves/save \
+  dst
 ```
 
 ### Or use docker-compose
